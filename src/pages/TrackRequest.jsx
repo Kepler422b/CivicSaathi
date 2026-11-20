@@ -286,9 +286,6 @@ export default function TrackRequest({ targetId, onNavigate }) {
                   <p className="leading-relaxed">
                     Once the assigned department completes and closes this request on site, you will be able to submit clarity and ease of service ratings.
                   </p>
-                  <p className="text-[11px] text-blue-700 font-medium">
-                    (Tip for examiners: Switch to Staff Portal to mark this request as 'Completed', then return here to test the rating flow!)
-                  </p>
                 </div>
               ) : activeRequest.feedback ? (
                 // Already Submitted Feedback
@@ -390,19 +387,19 @@ export default function TrackRequest({ targetId, onNavigate }) {
               )}
             </div>
 
-            {/* Staff Quick Action Helper Card for Examiners */}
+            {/* Staff Action Helper Card */}
             <div className="bg-gradient-to-br from-slate-900 to-[#102A43] text-white rounded-3xl p-5 shadow-md space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-teal-400">
-                  Examiner Quick Action
+                  Municipal Operations
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded bg-white/10 text-slate-300">
-                  Prototype Sync
+                  Ward Desk
                 </span>
               </div>
-              <h4 className="text-xs font-bold">Want to change this request's status?</h4>
+              <h4 className="text-xs font-bold">Authorized Operations Access</h4>
               <p className="text-[11px] text-slate-300 leading-relaxed">
-                Open this request in the Staff Management console to assign departments and push it through the workflow.
+                Authorized staff can open this grievance in the Staff Console to assign departments and record field milestone notes.
               </p>
               <button
                 onClick={() => {
@@ -410,7 +407,7 @@ export default function TrackRequest({ targetId, onNavigate }) {
                 }}
                 className="w-full py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
               >
-                <span>Open in Staff Management</span>
+                <span>Open in Staff Console</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </button>
             </div>

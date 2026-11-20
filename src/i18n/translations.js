@@ -23,14 +23,14 @@ export const translations = {
       switchRole: "Switch Portal",
     },
     hero: {
-      badge: "Idea Lab-III | Urban System Problem Statement 7",
+      badge: "Smart City Mission • Ward 12 Citizen Portal",
       title: "Your City, Your Voice.",
       titleAccent: "Let's Make It Better.",
       description: "Access essential civic services, report local municipal problems, and track your requests in real-time — all from one transparent smart platform.",
       ctaServices: "Explore Civic Services",
       ctaTrack: "Track a Request",
       ctaSubmit: "Submit Civic Issue",
-      quickDemoTip: "Click 'Demo Guide' in the header to run the 5-minute evaluator test journey.",
+      quickDemoTip: "24/7 Citizen Grievance Redressal • End-to-End Tracking • Transparent Governance",
     },
     status: {
       Submitted: "Submitted",
@@ -40,8 +40,8 @@ export const translations = {
       Completed: "Completed",
     },
     disclaimer: {
-      academic: "CivicSaathi is an academic demonstration prototype for Urban System Problem Statement 7. All requests and service data shown here are sample records and are not officially submitted to any municipal department.",
-      demoCredentialsNotice: "Prototype Authentication Active: All data is stored in your local browser sandbox.",
+      academic: "CivicSaathi Citizen Service Navigator. Real-time civic tracking and municipal grievance redressal.",
+      demoCredentialsNotice: "CivicSaathi Authentication Active.",
     },
     serviceDirectory: {
       title: "Civic Service Directory",
@@ -71,7 +71,7 @@ export const translations = {
       subtitle: "Enter your unique reference tracking ID (e.g. CS-2026-1042) to check real-time routing, staff assignment, and action updates.",
       inputPlaceholder: "Enter Reference ID (e.g. CS-2026-1042)",
       trackBtn: "Track Request",
-      quickFill: "Test with Demo ID CS-2026-1042",
+      quickFill: "Sample ID: CS-2026-1042",
       notFound: "No request found matching this Reference ID. Please verify the ID or check My Requests.",
       currentStatus: "Current Status",
       assignedTeam: "Assigned Department",
@@ -114,14 +114,14 @@ export const translations = {
       switchRole: "पोर्टल बदलें",
     },
     hero: {
-      badge: "आइडिया लैब-III | अर्बन सिस्टम समस्या कथन 7",
+      badge: "स्मार्ट सिटी मिशन • वार्ड 12 नागरिक पोर्टल",
       title: "आपका शहर, आपकी आवाज़।",
       titleAccent: "आइए इसे बेहतर बनाएं।",
       description: "आवश्यक नागरिक सेवाओं तक पहुंचें, स्थानीय समस्याओं की रिपोर्ट करें और वास्तविक समय में अपने अनुरोधों को ट्रैक करें — एक पारदर्शी मंच से।",
       ctaServices: "नागरिक सेवाएं देखें",
       ctaTrack: "अनुरोध ट्रैक करें",
       ctaSubmit: "समस्या दर्ज करें",
-      quickDemoTip: "5 मिनट की परीक्षक जांच के लिए शीर्ष पर 'डेमो गाइड' पर क्लिक करें।",
+      quickDemoTip: "24/7 नागरिक शिकायत निवारण • संपूर्ण ट्रैकिंग • पारदर्शी शासन",
     },
     status: {
       Submitted: "दर्ज किया गया",
@@ -131,8 +131,8 @@ export const translations = {
       Completed: "समाधान पूर्ण",
     },
     disclaimer: {
-      academic: "सिविकसाथी अर्बन सिस्टम प्रॉब्लम स्टेटमेंट 7 के लिए एक शैक्षणिक प्रोटोटाइप है। प्रदर्शित सभी अनुरोध और डेटा नमूना रिकॉर्ड हैं।",
-      demoCredentialsNotice: "प्रोटोटाइप प्रमाणीकरण सक्रिय: सभी डेटा आपके स्थानीय ब्राउज़र में सुरक्षित रूप से संग्रहीत है।",
+      academic: "नागरिक साथी स्मार्ट सेवा नेविगेटर। वास्तविक समय नागरिक ट्रैकिंग और शिकायत निवारण।",
+      demoCredentialsNotice: "प्रमाणीकरण सक्रिय।",
     },
     serviceDirectory: {
       title: "नागरिक सेवा निर्देशिका",

@@ -189,10 +189,10 @@ export default function SubmitRequest({ onNavigate, initialService }) {
               Registration Successful
             </span>
             <h1 className="text-2xl font-extrabold text-[#102A43]">
-              Request Registered in CivicSaathi Demo
+              Civic Request Successfully Registered
             </h1>
             <p className="text-xs text-slate-500 max-w-md mx-auto">
-              Your civic request has been successfully registered in the CivicSaathi demo system. Save the reference ID below to follow the complete lifecycle.
+              Your civic request has been registered in the Municipal Grievance Redressal System. Keep your reference ID below to track real-time resolution progress.
             </p>
           </div>
 
@@ -263,10 +263,7 @@ export default function SubmitRequest({ onNavigate, initialService }) {
             </button>
           </div>
 
-          {/* Academic Prototype Notice */}
-          <div className="p-3 bg-amber-50 rounded-xl border border-amber-200/80 text-[11px] text-amber-900 leading-snug">
-            <strong>Demonstration Notice:</strong> This is a prototype submission stored in your browser's LocalStorage for academic demonstration. Not sent to a real municipal agency.
-          </div>
+
         </div>
       </div>
     );
@@ -651,9 +648,8 @@ export default function SubmitRequest({ onNavigate, initialService }) {
               </div>
             </div>
 
-            {/* Prototype notice */}
             <div className="p-3 bg-blue-50/70 border border-blue-200 rounded-xl text-[11px] text-blue-900 leading-snug">
-              Upon clicking "Confirm & Submit", a unique reference ID will be generated and persisted in LocalStorage.
+              Upon clicking "Confirm & Submit", your request will be registered and assigned an immutable tracking reference ID.
             </div>
           </div>
         )}

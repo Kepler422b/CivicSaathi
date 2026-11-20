@@ -102,12 +102,12 @@ export default function LoginPage({ onNavigate }) {
             </button>
           </div>
 
-          {/* Quick Login Presets for Examiners */}
+          {/* Quick Login Presets */}
           <div className="mb-5 p-3 rounded-xl bg-blue-50/70 border border-blue-200/80 text-xs">
             <div className="flex items-center justify-between mb-1.5">
               <span className="font-semibold text-blue-900 flex items-center gap-1">
                 <Info className="w-3.5 h-3.5 text-blue-600" />
-                Examiner Quick-Fill Credentials
+                Quick-Access Login Credentials
               </span>
               <span className="font-mono text-[10px] text-blue-700 bg-blue-100 px-1.5 py-0.5 rounded">
                 demo123
@@ -188,7 +188,7 @@ export default function LoginPage({ onNavigate }) {
 
           {/* Notice */}
           <div className="mt-6 pt-4 border-t border-slate-100 text-center text-[11px] text-slate-400">
-            For academic demonstration only. Authentication is simulated locally.
+            CivicSaathi Municipal Portal • Secure Urban Service Redressal System
           </div>
         </div>
       </div>

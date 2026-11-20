@@ -128,7 +128,7 @@ export default function NotificationDrawer({ isOpen, onClose, role, onSelectRequ
 
         {/* Footer */}
         <div className="p-3 bg-slate-50 border-t border-slate-200 text-center text-xs text-slate-500">
-          Simulated In-App Event Dispatcher
+          Municipal In-App Notification Center
         </div>
       </div>
     </div>

@@ -92,7 +92,7 @@ export default function CitizenDashboard({ onNavigate, onSelectRequest }) {
           subtitle="All logged records"
           icon={FileText}
           color="slate"
-          badge="Live LocalStorage"
+          badge="Active Ward Queue"
         />
         <StatCard
           title="Pending Review"

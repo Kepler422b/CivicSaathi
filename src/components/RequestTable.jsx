@@ -184,7 +184,7 @@ export default function RequestTable({
       {/* Footer Info */}
       <div className="p-3 bg-slate-50 border-t border-slate-200 text-xs text-slate-500 flex items-center justify-between">
         <span>Showing {filteredRequests.length} of {requests.length} requests</span>
-        <span className="text-[11px] text-slate-400">Synced to LocalStorage</span>
+        <span className="text-[11px] text-slate-400">Live Registry Sync</span>
       </div>
     </div>
   );

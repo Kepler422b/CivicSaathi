@@ -168,39 +168,28 @@ export default function Navbar({ activePage, onNavigate }) {
             )}
           </nav>
 
-          {/* Right Action Tools: Language, Demo Guide, Role Switcher, Notifications, Auth */}
+          {/* Right Action Tools: Language, Portal Switcher, Notifications, Auth */}
           <div className="flex items-center gap-2 sm:gap-2.5">
-            {/* 5-Min Exam Walkthrough Button */}
-            <button
-              onClick={() => setExamGuideOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-teal-50 border border-teal-200 text-teal-800 text-xs font-bold hover:bg-teal-100 transition-all shadow-xs cursor-pointer"
-              title="Open the 5-Minute Evaluator Examination Guide"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-teal-600 animate-spin" style={{ animationDuration: "6s" }} />
-              <span className="hidden sm:inline">5-Min</span> Exam Guide
-            </button>
-
-            {/* Quick Role Switcher */}
+            {/* Portal Switcher */}
             <button
               onClick={handleRoleSwitch}
-              className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-semibold border transition-all cursor-pointer ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all cursor-pointer ${
                 role === "staff"
                   ? "bg-amber-50 text-amber-900 border-amber-300 hover:bg-amber-100"
                   : "bg-blue-50 text-blue-900 border-blue-200 hover:bg-blue-100"
               }`}
-              title="Quickly toggle between Citizen and Staff views for demonstration"
+              title="Switch portal view between Citizen and Staff"
             >
-              <ArrowRightLeft className="w-3 h-3 text-slate-500" />
-              <span className="hidden md:inline">Switch:</span>
-              <span className="underline decoration-dotted font-bold capitalize">
-                {role === "staff" ? "To Citizen" : "To Staff"}
+              <ArrowRightLeft className="w-3.5 h-3.5 text-slate-500" />
+              <span className="font-bold">
+                {role === "staff" ? "Citizen Portal" : "Staff Portal"}
               </span>
             </button>
 
             {/* Language Selector */}
             <button
               onClick={toggleLanguage}
-              className="flex items-center gap-1 px-2 py-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors cursor-pointer"
               title="Toggle English / Hindi"
             >
               <Globe className="w-3.5 h-3.5 text-slate-500" />
@@ -239,8 +228,8 @@ export default function Navbar({ activePage, onNavigate }) {
                     <span className="font-semibold text-slate-800 block truncate max-w-[120px]">
                       {user.name}
                     </span>
-                    <span className="text-[10px] text-slate-500 capitalize">
-                      {role} Demo
+                    <span className="text-[10px] text-slate-500 font-medium">
+                      {role === "staff" ? "Municipal Staff" : "Verified Citizen"}
                     </span>
                   </div>
                 </div>

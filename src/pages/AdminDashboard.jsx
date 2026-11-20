@@ -131,7 +131,7 @@ export default function AdminDashboard({ onNavigate, onSelectRequest }) {
               className="px-3 py-1.5 rounded-xl bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-xs font-semibold flex items-center gap-1 transition-colors"
             >
               <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              <span>Exam Target: CS-2026-1042</span>
+              <span>Case: CS-2026-1042</span>
             </button>
           </div>
         </div>

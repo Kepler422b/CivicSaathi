@@ -39,14 +39,8 @@ function AppContent() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F5F8FC] text-[#243447]">
-      {/* Top Academic Disclaimer Banner */}
-      <DisclaimerBanner />
-
       {/* Main Navbar */}
       <Navbar activePage={currentPage} onNavigate={handleNavigate} />
-
-      {/* 5-Min Exam Walkthrough Modal */}
-      <ExamDemoModal onNavigate={handleNavigate} />
 
       {/* Main Page Content */}
       <main className="flex-1">

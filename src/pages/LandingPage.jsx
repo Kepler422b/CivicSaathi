@@ -38,10 +38,10 @@ export default function LandingPage({ onNavigate, onSelectService }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-              {/* Academic Badge */}
+              {/* Civic Badge */}
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-300 text-xs font-semibold backdrop-blur-xs">
-                <GraduationCap className="w-3.5 h-3.5 text-teal-400" />
-                <span>{t("hero.badge")}</span>
+                <Building2 className="w-3.5 h-3.5 text-teal-400" />
+                <span>Smart City Citizen Service Navigator • Ward 12</span>
               </div>
 
               {/* Headline */}
@@ -74,20 +74,12 @@ export default function LandingPage({ onNavigate, onSelectService }) {
                   <Clock className="w-4 h-4 text-teal-300" />
                   <span>{t("hero.ctaTrack")}</span>
                 </button>
-
-                <button
-                  onClick={() => setExamGuideOpen(true)}
-                  className="px-4 py-3.5 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 border border-teal-400/40 font-semibold text-xs flex items-center gap-1.5 transition-all cursor-pointer"
-                >
-                  <Sparkles className="w-4 h-4 text-teal-300" />
-                  <span>5-Min Exam Walkthrough</span>
-                </button>
               </div>
 
-              {/* Quick Examiner Hint */}
-              <div className="pt-2 text-xs text-slate-400 flex items-center justify-center lg:justify-start gap-2">
+              {/* Platform Highlights */}
+              <div className="pt-2 text-xs text-slate-300 flex items-center justify-center lg:justify-start gap-2">
                 <span className="w-2 h-2 rounded-full bg-teal-400 animate-ping"></span>
-                <span>{t("hero.quickDemoTip")}</span>
+                <span>24/7 Citizen Grievance Redressal • End-to-End Tracking • Transparent Governance</span>
               </div>
             </div>
 
@@ -120,7 +112,7 @@ export default function LandingPage({ onNavigate, onSelectService }) {
                     <div className="flex items-center justify-between text-xs">
                       <span className="font-mono font-bold text-sky-400">CS-2026-1042</span>
                       <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                        Demo Primary Target
+                        Active Public Case
                       </span>
                     </div>
                     <h4 className="text-sm font-semibold text-white mt-1.5">Streetlight Not Working</h4>
@@ -179,7 +171,7 @@ export default function LandingPage({ onNavigate, onSelectService }) {
             <div className="text-xs font-semibold text-slate-500 mt-1 uppercase tracking-wider">
               {t("stats.totalRequests")}
             </div>
-            <div className="text-[10px] text-teal-600 font-medium mt-0.5">Seeded Demonstration Data</div>
+            <div className="text-[10px] text-teal-600 font-medium mt-0.5">Municipal Operations Registry</div>
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 text-center">
@@ -257,7 +249,7 @@ export default function LandingPage({ onNavigate, onSelectService }) {
               How CivicSaathi Closes the Citizen-Administration Gap
             </h2>
             <p className="text-sm text-slate-600 mt-2">
-              Investigating Urban System Problem Statement 7: transforming opaque manual complaints into a verified, trackable digital lifecycle.
+              Transforming opaque municipal grievances into an accountable, transparent citizen service lifecycle.
             </p>
           </div>
 
@@ -458,7 +450,7 @@ export default function LandingPage({ onNavigate, onSelectService }) {
                 <span className="text-base font-bold text-white">CivicSaathi</span>
               </div>
               <p className="text-slate-400 leading-relaxed text-[11px]">
-                A Smart Citizen Service Navigator & Follow-up Platform for Semester V Engineering Idea Lab-III (Problem Statement 7).
+                A Smart Citizen Service Navigator & Follow-up Platform empowering citizens and urban municipal departments with real-time transparency.
               </p>
             </div>
 
@@ -536,24 +528,23 @@ export default function LandingPage({ onNavigate, onSelectService }) {
             {/* Col 4 */}
             <div>
               <h4 className="font-bold text-white uppercase tracking-wider text-[11px] mb-3">
-                Examination Support
+                Citizen Support & Helpdesk
               </h4>
               <p className="text-slate-400 text-[11px] leading-relaxed mb-3">
-                Ready for demonstration to external evaluators.
+                Have questions regarding ward jurisdictions or resolution SLAs? Access our online catalog anytime.
               </p>
               <button
-                onClick={() => setExamGuideOpen(true)}
-                className="w-full py-2 px-3 rounded-lg bg-teal-500/20 text-teal-300 border border-teal-500/40 text-xs font-semibold hover:bg-teal-500/30 transition-colors flex items-center justify-center gap-1.5"
+                onClick={() => onNavigate("services")}
+                className="w-full py-2 px-3 rounded-lg bg-teal-500/20 text-teal-300 border border-teal-500/40 text-xs font-semibold hover:bg-teal-500/30 transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
               >
-                <Sparkles className="w-3.5 h-3.5" />
-                Launch 5-Min Exam Walkthrough
+                <span>Browse Municipal Services</span>
               </button>
             </div>
           </div>
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400 gap-2">
-            <p>© 2026 CivicSaathi. Engineering Idea Lab-III Project Demonstration.</p>
-            <p className="text-amber-400/80">LocalStorage Prototype • Zero External Cost</p>
+            <p>© 2026 CivicSaathi. All rights reserved. Urban Governance & Citizen Services Platform.</p>
+            <p className="text-teal-400 font-medium">Smart Citizen Grievance Redressal System</p>
           </div>
         </div>
       </footer>

@@ -63,7 +63,7 @@ export default function AnalyticsDashboard({ onNavigate }) {
             Urban Civic Analytics & Performance
           </h1>
           <p className="text-xs text-slate-500">
-            Real-time analytics computed directly from your current LocalStorage prototype dataset.
+            Real-time service analytics and municipal department performance metrics.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function AnalyticsDashboard({ onNavigate }) {
             className="px-3 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-2xs cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5 text-slate-500" />
-            <span>Reset Demo Records</span>
+            <span>Reset Dataset Records</span>
           </button>
         </div>
       </div>

@@ -51,7 +51,7 @@ export const requestService = {
         {
           status: "Submitted",
           timestamp: now,
-          remarks: data.initialRemarks || "Civic request registered in CivicSaathi prototype system. Waiting for desk officer review.",
+          remarks: data.initialRemarks || "Civic request registered in CivicSaathi portal. Waiting for desk officer review.",
           updatedBy: `${data.citizenName || "Citizen"} (Citizen Portal)`,
         },
       ],

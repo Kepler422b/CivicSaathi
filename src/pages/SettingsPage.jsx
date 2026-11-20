@@ -36,42 +36,42 @@ export default function SettingsPage() {
           Project Settings & Architecture
         </h1>
         <p className="text-xs text-slate-500">
-          Engineering Idea Lab-III • Urban System Problem Statement 7 Technical Dossier.
+          System Configuration, Persistence & Architecture Specifications.
         </p>
       </div>
 
-      {/* Reset Demo Data Card */}
+      {/* Reset Dataset Card */}
       <div className="bg-amber-50/70 border-2 border-amber-200 rounded-3xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h3 className="text-sm font-bold text-amber-950 flex items-center gap-2">
             <RotateCcw className="w-4 h-4 text-amber-700" />
-            Reset Prototype Demonstration State
+            Reset Dataset to Initial Baseline
           </h3>
           <p className="text-xs text-amber-900/80 mt-1 max-w-xl leading-relaxed">
-            Restores the initial 8 sample requests (including CS-2026-1042 for Rahul Sharma in Submitted state), clearing any temporary test modifications created during examinations.
+            Restores the initial sample requests (including CS-2026-1042 for Rahul Sharma), clearing any test modifications and re-establishing baseline records.
           </p>
         </div>
         <button
           onClick={handleResetData}
           className="px-4 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-xs shrink-0 cursor-pointer"
         >
-          Reset Demo Data
+          Reset Dataset
         </button>
       </div>
 
-      {/* Problem Statement 7 Academic Details */}
+      {/* Core Civic Mission */}
       <div className="bg-white rounded-3xl p-6 border border-slate-200/90 shadow-sm space-y-4">
         <div className="flex items-center gap-2 text-[#2563EB]">
-          <GraduationCap className="w-5 h-5" />
+          <Building className="w-5 h-5" />
           <h3 className="text-base font-bold text-slate-900">
-            Urban System Problem Statement 7
+            Urban Service Delivery Framework
           </h3>
         </div>
         <blockquote className="p-3.5 bg-slate-50 border-l-4 border-blue-600 rounded-r-xl text-xs text-slate-700 italic leading-relaxed">
-          "To investigate the interaction between urban services and citizens and identify opportunities for improved service delivery."
+          "Investigating the interaction between urban services and citizens to unlock opportunities for transparent, accountable service delivery."
         </blockquote>
         <p className="text-xs text-slate-600 leading-relaxed">
-          CivicSaathi investigates critical failure modes in traditional Indian municipal complaint portals: lack of service discovery, opaque department assignment, untracked progress bottlenecks, and missing feedback loops. By introducing an intelligent rule-based service catalog and an immutable timestamped status history, CivicSaathi transforms civic grievances into an accountable, transparent citizen service pipeline.
+          CivicSaathi addresses critical failure modes in traditional municipal complaint systems: lack of service discovery, opaque department assignment, untracked progress bottlenecks, and missing feedback loops. By introducing an intelligent rule-based service catalog and an immutable timestamped status history, CivicSaathi transforms civic grievances into an accountable, transparent citizen service pipeline.
         </p>
       </div>
 
@@ -100,7 +100,7 @@ export default function SettingsPage() {
           </div>
           <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
             <span className="font-bold text-slate-800 block">Persistence Layer</span>
-            <span className="text-slate-500">HTML5 LocalStorage Engine</span>
+            <span className="text-slate-500">Client-Side Storage Engine</span>
           </div>
           <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
             <span className="font-bold text-slate-800 block">Recommendation Engine</span>
